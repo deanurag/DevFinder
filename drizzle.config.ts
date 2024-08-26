@@ -7,4 +7,4 @@ export default defineConfig({
   },
   verbose: true,
   strict: true,
-});
+}) as { schema: string; driver: string; dbCredentials: { connectionString: string }; verbose: boolean; strict: boolean; };
